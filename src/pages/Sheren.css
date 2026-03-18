@@ -1,0 +1,71 @@
+/* BACKGROUND */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #dbeafe, #e9d5ff);
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  background: #ffffff;
+  border-radius: 20px;
+  max-width: 750px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* KIRI (FOTO) */
+.left {
+  background: #f5f3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.left img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #c4b5fd;
+  object-fit: cover;
+}
+
+/* KANAN */
+.right {
+  padding: 25px;
+  flex: 1;
+}
+
+/* NAMA */
+.right h1 {
+  font-size: 22px;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+/* INFO */
+.info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.info span {
+  font-weight: 600;
+  color: #374151;
+}
+
+/* DESKRIPSI */
+.desc {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+  text-align: justify;
+}
