@@ -1,7 +1,8 @@
-import Sheren from "./pages/Sheren";
+import React from "react";
+import SherenProfile from "./profiles/Sheren";
 
 function App() {
-  return <Sheren />;
+  return <SherenProfile />;
 }
 
 export default App;
